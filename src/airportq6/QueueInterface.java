@@ -1,7 +1,7 @@
 /**
    An interface for the ADT queue.   
-   @author Frank M. Carrano
-   @author Timothy M. Henry
+   @author Georgia Turner
+   @author Jesse Castillo
    @version 5.0
 */
 public interface QueueInterface<T>

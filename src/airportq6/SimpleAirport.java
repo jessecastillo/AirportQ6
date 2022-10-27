@@ -5,8 +5,8 @@ import java.util.Random;
    those waiting to land queue in the air.
    Planes in the air must land before those on the ground can take off.
 
-   @author Jesse Grabowski
-   @author Joseph Erickson
+   @author Georgia Turner
+   @author Jesse Castillo
    @version 5.0
 */
 public class SimpleAirport

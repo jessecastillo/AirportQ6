@@ -1,7 +1,8 @@
 /**
    A driver for a simple airport as described in Chapter 10, Project 4.
    
-   @author Joseph Erickson
+   @author Georgia Turner
+   @author Jesse Castillo
    @version 5.0
  */
 public class Driver
@@ -10,31 +11,31 @@ public class Driver
 	{
 		int flights = 10;
 		
-		System.out.println("T. F. Green Airport");
+		System.out.println("JG Airport");
 		System.out.println("===================");
 		
 		System.out.println();
 		System.out.println("Adding " + flights + " flights to random queues:");
-		SimpleAirport TFGreen = new SimpleAirport(flights);
+		SimpleAirport JG_Airport = new SimpleAirport(flights);
 
 		System.out.println();
 		System.out.println("Initiating "+ (flights + 1) + " landings/takeoffs:");
 		for (int i = 0; i < flights + 1; i++) // Testing removing from queues
-			TFGreen.landingAndTakeoff();
+			JG_Airport.landingAndTakeoff();
 
 		System.out.println();
 		System.out.println("Adding 5 flights to the ground:");
 		for (int i = 0; i < 5; i++) // Testing adding to ground queue
-			TFGreen.addGround();
+			JG_Airport.addGround();
 
 		System.out.println();
 		System.out.println("Adding 3 flights to the air:");
 		for (int i = 0; i < 3; i++) // Testing adding to air queue
-			TFGreen.addAir();
+			JG_Airport.addAir();
 
 		System.out.println();
 		System.out.println("Clearing all flights:");
-		TFGreen.clearAllFlights();  // Testing clearing all queues
+		JG_Airport.clearAllFlights();  // Testing clearing all queues
 
 		System.out.println();
 		System.out.println("\nDone.");
@@ -42,7 +43,7 @@ public class Driver
 } // end Driver
 
 /*
- T. F. Green Airport
+ JG Airport
  ===================
  
  Adding 10 flights to random queues:

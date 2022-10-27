@@ -2,8 +2,8 @@
  A class that implements a queue of objects by using
  a chain of linked nodes that has both head and tail references.
  
- @author Frank M. Carrano
- @author Timothy M. Henry
+   @author Georgia Turner
+   @author Jesse Castillo
  @version 5.0
  */
 public final class LinkedQueue<T> implements QueueInterface<T>
