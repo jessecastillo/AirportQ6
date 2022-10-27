@@ -1,8 +1,8 @@
 /**
    A class of runtime exceptions thrown by methods to
    indicate that a queue is empty.
-   @author Frank M. Carrano
-   @author Timothy M. Henry
+   @author Georgia Turner
+   @author Jesse Castillo
    @version 5.0
 */
 public class EmptyQueueException extends RuntimeException
