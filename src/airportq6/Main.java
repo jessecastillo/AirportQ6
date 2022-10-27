@@ -5,7 +5,7 @@
    @author Jesse Castillo
    @version 5.0
  */
-public class Driver
+public class Main
 {
 	public static void main(String[] args)
 	{
