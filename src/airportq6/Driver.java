@@ -1,5 +1,5 @@
 /**
-   A driver for a simple airport as described in Chapter 10, Project 4.
+   A driver for a simple airport as described in Queue Project 6
    
    @author Georgia Turner
    @author Jesse Castillo
@@ -24,13 +24,13 @@ public class Driver
 			JG_Airport.landingAndTakeoff();
 
 		System.out.println();
-		System.out.println("Adding 5 flights to the ground:");
-		for (int i = 0; i < 5; i++) // Testing adding to ground queue
+		System.out.println("Adding 7 flights to the ground:");
+		for (int i = 0; i < 7; i++) // Testing adding to ground queue
 			JG_Airport.addGround();
 
 		System.out.println();
-		System.out.println("Adding 3 flights to the air:");
-		for (int i = 0; i < 3; i++) // Testing adding to air queue
+		System.out.println("Adding 5 flights to the air:");
+		for (int i = 0; i < 5; i++) // Testing adding to air queue
 			JG_Airport.addAir();
 
 		System.out.println();
